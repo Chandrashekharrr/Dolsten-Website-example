@@ -92,7 +92,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {!Clicked ? (
-        <div className={`${plexMono.className} overlay w-full h-screen bg-[#222222] block md:hidden relative z-10 transition-all duration-700 text-white text-[20vw] uppercase leading-none pt-[60vh] pl-8 overflow-hidden`}>
+        <div className={`${plexMono.className} overlay w-full h-screen bg-[#222222] block md:hidden fixed z-20 transition-all duration-700 text-white text-[20vw] uppercase leading-none pt-[60vh] pl-8 overflow-hidden`}>
           {["awards", "about", "work", "contact"].map((text, index) => (
             <h1
               key={index}
@@ -106,7 +106,7 @@ export default function Navbar() {
         
         </div>
       ) : (
-        <div className="overlay w-full h-0 bg-[#222222] block md:hidden relative z-10 transition-all duration-700"></div>
+        <div className="overlay w-full h-0 bg-[#222222] block md:hidden fixed z-10 transition-all duration-700"></div>
         
       )}
 
