@@ -46,7 +46,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="mainNAv w-full h-20 px-8 flex justify-between items-center z-30 fixed">
+      <div className="mainNAv w-full h-20 flex justify-between items-center z-30 fixed px-8">
         {/* Left */}
         <div className={`${plexMono.className} NavComp gap-12 uppercase text-[#434740] text-[14px] hidden md:flex`}>
           <h1>Awards</h1>
@@ -92,7 +92,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {!Clicked ? (
-        <div className={`${plexMono.className} overlay w-full h-screen bg-[#222222] block md:hidden fixed z-20 transition-all duration-700 text-white text-[20vw] uppercase leading-none pt-[60vh] pl-8 overflow-hidden`}>
+        <div className={`${plexMono.className} overlay w-full h-screen bg-[#222222] block md:hidden fixed z-20 transition-all duration-700 text-white text-[20vw] uppercase leading-none pt-[60vh] overflow-hidden pl-8`}>
           {["awards", "about", "work", "contact"].map((text, index) => (
             <h1
               key={index}
