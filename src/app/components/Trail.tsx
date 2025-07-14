@@ -47,7 +47,7 @@ export default function Trail() {
         <div className="mainTrail w-full">
             <h1 className={`${plexMono.className} text-sm text-[#434740] px-5 uppercase font-extralight`}>Brand experience</h1>
 
-            <div className="trailer w-full h-[40vh] flex overflow-hidden">
+            <div className="trailer w-full h-[20vh] md:h-[40vh] flex overflow-hidden">
 
                 <motion.div
                     initial={{ x: 0 }}
@@ -64,8 +64,11 @@ export default function Trail() {
                             key={img.id}
                             src={img.src}
                             alt={img.alt}
-                            width={300}
-                            height={300}
+                           
+
+                            width={200}
+                            height={200}
+                            
 
 
                         ></Image>
@@ -90,8 +93,9 @@ export default function Trail() {
                             key={img.id}
                             src={img.src}
                             alt={img.alt}
-                            width={300}
-                            height={300}
+                            width={200}
+                            height={200}
+                            
 
 
                         ></Image>
