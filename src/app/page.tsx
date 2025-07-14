@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import Videos from "./components/Videos";
 import TextSection from "./components/TextSection";
 import Trail from "./components/Trail";
+import Numcon from "./components/Numcon";
 
 
 const neueMon = localFont({
@@ -40,6 +41,21 @@ export default function Home() {
        
         <Trail/>
         
+
+        <div className={` headingAwards ${neueMon.className} w-full pt-10 text-[3vw] uppercase flex justify-between px-5`}>
+          <h1 className="headingComp">awards</h1>
+          <h1 className="headingComp">&</h1>
+          <h1 className="headingComp">Recognitions</h1>
+
+
+        </div>
+
+        
+        <div className="mainSep w-full h-[20px]  flex justify-between items-center text-center gap-3 px-5 text-2xl font-extralight absolute z-0  ">
+          +<div className="line w-full h-[0.5px] md:mt-[8px] bg-[#b5b1b7]"></div>+
+        </div>
+
+        <Numcon/>
 
       </div>
     </>

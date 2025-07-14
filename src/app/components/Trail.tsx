@@ -112,6 +112,11 @@ export default function Trail() {
 
             </div>
 
+
+                    <div className="mainSep w-full h-[20px]  flex justify-between items-center text-center gap-3 px-5 text-2xl font-extralight absolute z-0  ">
+          +<div className="line w-full h-[0.5px] md:mt-[8px] bg-[#b5b1b7]"></div>+
+        </div>
+
         </div>
     )
 }
