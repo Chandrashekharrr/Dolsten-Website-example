@@ -2,6 +2,7 @@ import Hero from "./components/Hero";
 import localFont from "next/font/local";
 import Videos from "./components/Videos";
 import TextSection from "./components/TextSection";
+import Trail from "./components/Trail";
 
 
 const neueMon = localFont({
@@ -37,7 +38,7 @@ export default function Home() {
         
         <TextSection/>
        
-
+        <Trail/>
         
 
       </div>
