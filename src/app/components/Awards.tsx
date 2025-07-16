@@ -1,6 +1,8 @@
 import localFont from "next/font/local";
 import { IBM_Plex_Mono } from "next/font/google";
 import { MdSubdirectoryArrowRight } from "react-icons/md";
+import Image from "next/image";
+import React from "react";
 
 
 const neueMon = localFont({
@@ -29,7 +31,7 @@ export default function(){
 
 
                 <div className="awardPhoto relative basis-1/4">
-                    <img src="./Images/award1.webp" alt="" className="w-[15vw]"/>
+                    <Image src="./Images/award1.webp" alt="" className="w-[15vw]"/>
                 </div>
 
                 <div className={`heading ${plexMono.className} font-extralight uppercase text-sm text-[#434740] basis-3/4`}><h1>EMMY® for Outstanding Digital Innovation</h1></div>
@@ -52,7 +54,7 @@ export default function(){
 
 
                 <div className="awardPhoto relative basis-1/4">
-                    <img src="./Images/award1.webp" alt="" className="w-[15vw]"/>
+                    <Image src="./Images/award1.webp" alt="" className="w-[15vw]"/>
                 </div>
 
                 <div className={`heading ${plexMono.className} font-extralight uppercase text-sm text-[#434740] basis-3/4`}><h1>EMMY® for Outstanding Digital Innovation</h1></div>
@@ -74,7 +76,7 @@ export default function(){
 
 
                 <div className="awardPhoto relative basis-1/4">
-                    <img src="./Images/award2.webp" alt="" className="w-[15vw]"/>
+                    <Image src="./Images/award2.webp" alt="" className="w-[15vw]"/>
                 </div>
 
                 <div className={`heading ${plexMono.className} font-extralight uppercase text-sm text-[#434740] basis-3/4`}><h1>EMMY® for Outstanding Digital Innovation</h1></div>
@@ -97,7 +99,7 @@ export default function(){
 
 
                 <div className="awardPhoto relative basis-1/4">
-                    <img src="./Images/award3.webp" alt="" className="w-[15vw]"/>
+                    <Image src="./Images/award3.webp" alt="" className="w-[15vw]"/>
                 </div>
 
                 <div className={`heading ${plexMono.className} font-extralight uppercase text-sm text-[#434740] basis-3/4`}><h1>EMMY® for Outstanding Digital Innovation</h1></div>
@@ -119,7 +121,7 @@ export default function(){
 
 
                 <div className="awardPhoto relative basis-1/4">
-                    <img src="./Images/award4.webp" alt="" className="w-[15vw]"/>
+                    <Image src="./Images/award4.webp" alt="" className="w-[15vw]"/>
                 </div>
 
                 <div className={`heading ${plexMono.className} font-extralight uppercase text-sm text-[#434740] basis-3/4`}><h1>EMMY® for Outstanding Digital Innovation</h1></div>
