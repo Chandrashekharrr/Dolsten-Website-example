@@ -1,5 +1,7 @@
 import { IBM_Plex_Mono } from "next/font/google";
 import localFont from "next/font/local";
+import Image from "next/image";
+import React from "react";
 
 const plexMono = IBM_Plex_Mono({
   weight: "700",
@@ -23,7 +25,7 @@ export default function Flower(){
 
 
             <div className="Flower w-full h-full sm:absolute z-0">
-                <img src="./Images/flower.webp" alt="" className="md:w-1/2 "/>
+                <Image src="./Images/flower.webp" alt="" className="md:w-1/2 "/>
             </div>
 
 
