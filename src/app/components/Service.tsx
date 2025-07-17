@@ -24,15 +24,15 @@ type dataprop = {
 
 const Service:React.FC<dataprop> = () => {
 
-    // const [{ title, para }] = [{
-    //     title: "Brand Campaigns",
-    //     para: "We concept and produce full 360 brand campaigns with AI integrated where it adds value—from insight to production to distribution.",
-    // },
+    const [{ title, para }] = [{
+        title: "Brand Campaigns",
+        para: "We concept and produce full 360 brand campaigns with AI integrated where it adds value—from insight to production to distribution.",
+    },
 
-    // {
-    //     title: "Brand Campaigns",
-    //     para: "We concept and produce full 360 brand campaigns with AI integrated where it adds value—from insight to production to distribution.",
-    // }];
+    {
+        title: "Brand Campaigns",
+        para: "We concept and produce full 360 brand campaigns with AI integrated where it adds value—from insight to production to distribution.",
+    }];
 
     const elem = useRef<HTMLButtonElement>(null);
     const paraelem = useRef<HTMLParagraphElement>(null);

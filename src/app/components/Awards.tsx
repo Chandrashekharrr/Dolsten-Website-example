@@ -14,7 +14,7 @@ const plexMono = IBM_Plex_Mono({
 });
 
 
-export default function(){
+export default function Awards(){
 
 
     return(
@@ -31,7 +31,7 @@ export default function(){
 
 
                 <div className="awardPhoto relative basis-1/4">
-                    <Image src="./Images/award1.webp" alt="" className="w-[15vw]"/>
+                    <Image src="/Images/award1.webp" alt=""  width={290} height={190}/>
                 </div>
 
                 <div className={`heading ${plexMono.className} font-extralight uppercase text-sm text-[#434740] basis-3/4`}><h1>EMMY® for Outstanding Digital Innovation</h1></div>
@@ -54,7 +54,7 @@ export default function(){
 
 
                 <div className="awardPhoto relative basis-1/4">
-                    <Image src="./Images/award1.webp" alt="" className="w-[15vw]"/>
+                    <Image src="/Images/award1.webp" alt="" width={290} height={190}/>
                 </div>
 
                 <div className={`heading ${plexMono.className} font-extralight uppercase text-sm text-[#434740] basis-3/4`}><h1>EMMY® for Outstanding Digital Innovation</h1></div>
@@ -76,7 +76,7 @@ export default function(){
 
 
                 <div className="awardPhoto relative basis-1/4">
-                    <Image src="./Images/award2.webp" alt="" className="w-[15vw]"/>
+                    <Image src="/Images/award2.webp" alt="" width={290} height={190}/>
                 </div>
 
                 <div className={`heading ${plexMono.className} font-extralight uppercase text-sm text-[#434740] basis-3/4`}><h1>EMMY® for Outstanding Digital Innovation</h1></div>
@@ -99,7 +99,7 @@ export default function(){
 
 
                 <div className="awardPhoto relative basis-1/4">
-                    <Image src="./Images/award3.webp" alt="" className="w-[15vw]"/>
+                    <Image src="/Images/award3.webp" alt="" width={290} height={190}/>
                 </div>
 
                 <div className={`heading ${plexMono.className} font-extralight uppercase text-sm text-[#434740] basis-3/4`}><h1>EMMY® for Outstanding Digital Innovation</h1></div>
@@ -121,7 +121,7 @@ export default function(){
 
 
                 <div className="awardPhoto relative basis-1/4">
-                    <Image src="./Images/award4.webp" alt="" className="w-[15vw]"/>
+                    <Image src="/Images/award4.webp" alt="" width={290} height={190}/>
                 </div>
 
                 <div className={`heading ${plexMono.className} font-extralight uppercase text-sm text-[#434740] basis-3/4`}><h1>EMMY® for Outstanding Digital Innovation</h1></div>

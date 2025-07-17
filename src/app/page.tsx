@@ -108,7 +108,7 @@ export default function Home() {
         <About/>
         <Flower/>
         <Model/>
-        <Service/>
+        <Service title="Brand Campaigns" para="We concept and produce full 360 brand campaigns with AI integrated where it adds value—from insight to production to distribution."/>
 
 
       </div>
