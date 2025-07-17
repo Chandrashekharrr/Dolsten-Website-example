@@ -35,7 +35,7 @@ export default function Model() {
                         <div className="colOne  w-full px-5">
                             <div className="whiteSpace w-full bg-white p-4 flex flex-col sm:flex-row lg:flex-col justify-between items-center sm:gap-10">
 
-                                <div className="imageDiv overflow-hidden"><Image src="/images/model1.webp" alt="" className="object-cover " width={500} height={400} /></div>
+                                <div className="imageDiv overflow-hidden"><Image src="/public/model1.webp" alt="" className="object-cover " width={500} height={400} /></div>
 
                                 <div className="TextContentDiv overflow-hidden flex flex-col justify-evenly">
 
@@ -62,7 +62,7 @@ export default function Model() {
                         <div className="colOne  w-full px-5">
                             <div className="whiteSpace w-full bg-white p-4 flex flex-col sm:flex-row lg:flex-col justify-between items-center sm:gap-10">
 
-                                <div className="imageDiv overflow-hidden"><Image src="/images/model2.webp" alt="" className="object-cover " width={500} height={400} /></div>
+                                <div className="imageDiv overflow-hidden"><Image src="/public/model2.webp" alt="" className="object-cover " width={500} height={400} /></div>
 
                                 <div className="TextContentDiv overflow-hidden flex flex-col justify-evenly">
 
@@ -91,7 +91,7 @@ export default function Model() {
                         <div className="colOne  w-full px-5">
                             <div className="whiteSpace w-full bg-white p-4 flex flex-col sm:flex-row lg:flex-col justify-between items-center sm:gap-10">
 
-                                <div className="imageDiv overflow-hidden"><Image src="/images/model3.webp" alt="" className="object-cover "  width={500} height={400}/></div>
+                                <div className="imageDiv overflow-hidden"><Image src="/public/model3.webp" alt="" className="object-cover "  width={500} height={400}/></div>
 
                                 <div className="TextContentDiv overflow-hidden flex flex-col justify-evenly">
 
@@ -120,7 +120,7 @@ export default function Model() {
                         <div className="colOne  w-full px-5">
                             <div className="whiteSpace w-full bg-white p-4 flex flex-col sm:flex-row lg:flex-col justify-between items-center sm:gap-10">
 
-                                <div className="imageDiv overflow-hidden"><Image src="/images/model4.webp" alt="" className="object-cover " width={500} height={400} /></div>
+                                <div className="imageDiv overflow-hidden"><Image src="/public/model4.webp" alt="" className="object-cover " width={500} height={400} /></div>
 
                                 <div className="TextContentDiv overflow-hidden flex flex-col justify-evenly">
 

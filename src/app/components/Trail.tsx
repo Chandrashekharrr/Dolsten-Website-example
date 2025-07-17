@@ -21,19 +21,19 @@ export default function Trail() {
 
     const imageData = [
 
-        { id: 1, src: "./images/01.svg", alt: "Image 1" },
-        { id: 2, src: "./images/02.svg", alt: "Image 2" },
-        { id: 3, src: "./images/03.svg", alt: "Image 3" },
-        { id: 4, src: "./images/04.svg", alt: "Image 4" },
-        { id: 5, src: "./images/01.svg", alt: "Image 1" },
-        { id: 6, src: "./images/02.svg", alt: "Image 2" },
-        { id: 7, src: "./images/03.svg", alt: "Image 3" },
-        { id: 8, src: "./images/04.svg", alt: "Image 4" },
-        { id: 9, src: "./images/04.svg", alt: "Image 4" },
-        { id: 10, src: "./images/01.svg", alt: "Image 1" },
-        { id: 11, src: "./images/02.svg", alt: "Image 2" },
-        { id: 12, src: "./images/03.svg", alt: "Image 3" },
-        { id: 13, src: "./images/04.svg", alt: "Image 4" },
+        { id: 1, src: "./public/01.svg", alt: "Image 1" },
+        { id: 2, src: "./public/02.svg", alt: "Image 2" },
+        { id: 3, src: "./public/03.svg", alt: "Image 3" },
+        { id: 4, src: "./public/04.svg", alt: "Image 4" },
+        { id: 5, src: "./public/01.svg", alt: "Image 1" },
+        { id: 6, src: "./public/02.svg", alt: "Image 2" },
+        { id: 7, src: "./public/03.svg", alt: "Image 3" },
+        { id: 8, src: "./public/04.svg", alt: "Image 4" },
+        { id: 9, src: "./public/04.svg", alt: "Image 4" },
+        { id: 10, src: "./public/01.svg", alt: "Image 1" },
+        { id: 11, src: "./public/02.svg", alt: "Image 2" },
+        { id: 12, src: "./public/03.svg", alt: "Image 3" },
+        { id: 13, src: "./public/04.svg", alt: "Image 4" },
     ]
 
 

@@ -31,7 +31,7 @@ export default function Awards(){
 
 
                 <div className="awardPhoto relative basis-1/4">
-                    <Image src="/images/award1.webp" alt=""  width={290} height={190}/>
+                    <Image src="/public/award1.webp" alt=""  width={290} height={190}/>
                 </div>
 
                 <div className={`heading ${plexMono.className} font-extralight uppercase text-sm text-[#434740] basis-3/4`}><h1>EMMY® for Outstanding Digital Innovation</h1></div>
@@ -54,7 +54,7 @@ export default function Awards(){
 
 
                 <div className="awardPhoto relative basis-1/4">
-                    <Image src="/images/award1.webp" alt="" width={290} height={190}/>
+                    <Image src="/public/award1.webp" alt="" width={290} height={190}/>
                 </div>
 
                 <div className={`heading ${plexMono.className} font-extralight uppercase text-sm text-[#434740] basis-3/4`}><h1>EMMY® for Outstanding Digital Innovation</h1></div>
@@ -76,7 +76,7 @@ export default function Awards(){
 
 
                 <div className="awardPhoto relative basis-1/4">
-                    <Image src="/images/award2.webp" alt="" width={290} height={190}/>
+                    <Image src="/public/award2.webp" alt="" width={290} height={190}/>
                 </div>
 
                 <div className={`heading ${plexMono.className} font-extralight uppercase text-sm text-[#434740] basis-3/4`}><h1>EMMY® for Outstanding Digital Innovation</h1></div>
@@ -99,7 +99,7 @@ export default function Awards(){
 
 
                 <div className="awardPhoto relative basis-1/4">
-                    <Image src="/images/award3.webp" alt="" width={290} height={190}/>
+                    <Image src="/public/award3.webp" alt="" width={290} height={190}/>
                 </div>
 
                 <div className={`heading ${plexMono.className} font-extralight uppercase text-sm text-[#434740] basis-3/4`}><h1>EMMY® for Outstanding Digital Innovation</h1></div>
@@ -121,7 +121,7 @@ export default function Awards(){
 
 
                 <div className="awardPhoto relative basis-1/4">
-                    <Image src="/images/award4.webp" alt="" width={290} height={190}/>
+                    <Image src="/public/award4.webp" alt="" width={290} height={190}/>
                 </div>
 
                 <div className={`heading ${plexMono.className} font-extralight uppercase text-sm text-[#434740] basis-3/4`}><h1>EMMY® for Outstanding Digital Innovation</h1></div>
