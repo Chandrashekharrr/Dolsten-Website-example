@@ -34,7 +34,7 @@ export default function Model() {
                         <div className="colOne  w-full px-5">
                             <div className="whiteSpace w-full bg-white p-4 flex flex-col sm:flex-row lg:flex-col justify-between items-center sm:gap-10">
 
-                                <div className="imageDiv overflow-hidden"><img src="./Images/model1.webp" alt="" className="object-cover " /></div>
+                                <div className="imageDiv overflow-hidden"><img src="/Images/model1.webp" alt="" className="object-cover " /></div>
 
                                 <div className="TextContentDiv overflow-hidden flex flex-col justify-evenly">
 
@@ -61,7 +61,7 @@ export default function Model() {
                         <div className="colOne  w-full px-5">
                             <div className="whiteSpace w-full bg-white p-4 flex flex-col sm:flex-row lg:flex-col justify-between items-center sm:gap-10">
 
-                                <div className="imageDiv overflow-hidden"><img src="./Images/model2.webp" alt="" className="object-cover " /></div>
+                                <div className="imageDiv overflow-hidden"><img src="/Images/model2.webp" alt="" className="object-cover " /></div>
 
                                 <div className="TextContentDiv overflow-hidden flex flex-col justify-evenly">
 
@@ -90,7 +90,7 @@ export default function Model() {
                         <div className="colOne  w-full px-5">
                             <div className="whiteSpace w-full bg-white p-4 flex flex-col sm:flex-row lg:flex-col justify-between items-center sm:gap-10">
 
-                                <div className="imageDiv overflow-hidden"><img src="./Images/model3.webp" alt="" className="object-cover " /></div>
+                                <div className="imageDiv overflow-hidden"><img src="/Images/model3.webp" alt="" className="object-cover " /></div>
 
                                 <div className="TextContentDiv overflow-hidden flex flex-col justify-evenly">
 
@@ -119,7 +119,7 @@ export default function Model() {
                         <div className="colOne  w-full px-5">
                             <div className="whiteSpace w-full bg-white p-4 flex flex-col sm:flex-row lg:flex-col justify-between items-center sm:gap-10">
 
-                                <div className="imageDiv overflow-hidden"><img src="./Images/model4.webp" alt="" className="object-cover " /></div>
+                                <div className="imageDiv overflow-hidden"><img src="/Images/model4.webp" alt="" className="object-cover " /></div>
 
                                 <div className="TextContentDiv overflow-hidden flex flex-col justify-evenly">
 
