@@ -1,3 +1,4 @@
+'use client';
 import Hero from "./components/Hero";
 import localFont from "next/font/local";
 import Videos from "./components/Videos";
@@ -10,12 +11,44 @@ import About from "./components/About";
 import Flower from "./components/Flower";
 import Model from "./components/Model";
 import Service from "./components/Service";
+import Footer from "./components/Footer";
+import Lenis from 'lenis'
+import { useEffect } from "react";
+
 
 const neueMon = localFont({
   src: "../../public/Fonts/Neu.ttf",
 });
 
 export default function Home() {
+
+  useEffect(() => {
+    // Initialize Lenis for smooth scrolling
+    const lenis = new Lenis({
+      lerp: 0.09, // Adjust the lerp value for smoothness
+      smoothWheel: true, // Enable smooth scrolling with the mouse wheel
+      syncTouch: true, // Enable smooth scrolling with touch gestures
+    });
+
+    // Use requestAnimationFrame to continuously update the scroll
+    function raf(time: number) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+
+    requestAnimationFrame(raf);
+
+    // Cleanup on component unmount
+    return () => {
+      lenis.destroy();
+    };
+  }, []);
+
+
+
+
+
+
   return (
     <>
       <div className="main bg-[#e3deea] w-full h-screen ">
@@ -110,6 +143,9 @@ export default function Home() {
         <Model/>
         <Service title="Brand Campaigns" para="We concept and produce full 360 brand campaigns with AI integrated where it adds value—from insight to production to distribution."/>
 
+        
+
+        <Footer />
 
       </div>
 
