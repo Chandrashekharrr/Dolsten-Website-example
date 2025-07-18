@@ -1,5 +1,5 @@
 import { IoIosArrowRoundUp } from "react-icons/io";
-import { IBM_Plex_Mono } from "next/font/google";
+// import { IBM_Plex_Mono } from "next/font/google";
 import localFont from "next/font/local";
 import React from "react";
 import Image from "next/image";
@@ -7,10 +7,10 @@ import { MdSubdirectoryArrowRight } from "react-icons/md";
 
 
 
-const plexMono = IBM_Plex_Mono({
-  weight: "700",
-  subsets: ["latin"],
-});
+// const plexMono = IBM_Plex_Mono({
+//   weight: "700",
+//   subsets: ["latin"],
+// });
 
 const neueMon = localFont({
   src: "../../../public/Fonts/Neu.ttf",
