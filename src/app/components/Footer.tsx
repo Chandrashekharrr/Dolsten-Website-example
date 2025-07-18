@@ -24,7 +24,7 @@ export default function Footer() {
 
 
   const imageData = [
-    { id: 1, src: "/Footer.webp", alt: "Image 1" }
+    { id: 1, src: "./Footer.webp", alt: "Image 1" }
   ];
 
 

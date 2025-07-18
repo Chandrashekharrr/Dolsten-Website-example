@@ -25,7 +25,7 @@ export default function Flower(){
 
 
             <div className="Flower w-full h-full sm:absolute z-0">
-                <Image src="/flower.webp" alt="" width={800} height={900} />
+                <Image src="./flower.webp" alt="" width={800} height={900} />
             </div>
 
 
