@@ -66,7 +66,7 @@ export default function Model() {
 
                                 <div className="TextContentDiv overflow-hidden flex flex-col justify-evenly">
 
-                                    <div className="HeadingDiv"><h1 className={`${neueMon.className} uppercase text-[8vw] sm:text-[3vw] leading-none py-5`}>AI Creator Network</h1></div>
+                                    <div className="HeadingDiv"><h1 className={`${neueMon.className} uppercase text-[8vw] sm:text-[3vw] leading-none py-5`}>AI Automation</h1></div>
                                     <div className="Para sm:p-20 lg:p-0"><p className={`uppercase text-[4vw] sm:text-[1vw] break-all leading-tight text-[#434740] ${plexMono.className}`}>We work with a curated group of AI makers—including AI filmmakers, artists, designers, engineers, and prompt specialists—to craft breakthrough, effective work. Each collaborator is chosen for their unique perspective and technical mastery.</p></div>
                                 </div>
                             </div>
@@ -95,7 +95,7 @@ export default function Model() {
 
                                 <div className="TextContentDiv overflow-hidden flex flex-col justify-evenly">
 
-                                    <div className="HeadingDiv"><h1 className={`${neueMon.className} uppercase text-[8vw] sm:text-[3vw] leading-none py-5`}>AI Creator Network</h1></div>
+                                    <div className="HeadingDiv"><h1 className={`${neueMon.className} uppercase text-[8vw] sm:text-[3vw] leading-none py-5`}>AI security</h1></div>
                                     <div className="Para sm:p-20 lg:p-0"><p className={`uppercase text-[4vw] sm:text-[1vw] break-all leading-tight text-[#434740] ${plexMono.className}`}>We work with a curated group of AI makers—including AI filmmakers, artists, designers, engineers, and prompt specialists—to craft breakthrough, effective work. Each collaborator is chosen for their unique perspective and technical mastery.</p></div>
                                 </div>
                             </div>
@@ -124,7 +124,7 @@ export default function Model() {
 
                                 <div className="TextContentDiv overflow-hidden flex flex-col justify-evenly">
 
-                                    <div className="HeadingDiv"><h1 className={`${neueMon.className} uppercase text-[8vw] sm:text-[3vw] leading-none py-5`}>AI Creator Network</h1></div>
+                                    <div className="HeadingDiv"><h1 className={`${neueMon.className} uppercase text-[8vw] sm:text-[3vw] leading-none py-5`}>Managed System</h1></div>
                                     <div className="Para sm:p-20 lg:p-0"><p className={`uppercase text-[4vw] sm:text-[1vw] break-all leading-tight text-[#434740] ${plexMono.className}`}>We work with a curated group of AI makers—including AI filmmakers, artists, designers, engineers, and prompt specialists—to craft breakthrough, effective work. Each collaborator is chosen for their unique perspective and technical mastery.</p></div>
                                 </div>
                             </div>
