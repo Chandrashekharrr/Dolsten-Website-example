@@ -56,11 +56,11 @@ export default function Navbar() {
         {/* Center */}
         {!Clicked ? (
           <div className={`${neueMon.className} NavComp w-fit md:w-44 uppercase font-extrabold text-white text-sm tracking-widest transition-all duration-700`}>
-          <h1>DOLSTEN & CO.</h1>
+          <h1>QUBIT & CO.</h1>
         </div>
       ):(
         <div className={`${neueMon.className} NavComp w-fit md:w-44 uppercase font-extrabold text-[#434740] text-sm tracking-widest transition-all duration-700`}>
-          <h1>DOLSTEN & CO.</h1>
+          <h1>QUBIT & CO.</h1>
         </div>
       )}
         

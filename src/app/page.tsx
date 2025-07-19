@@ -104,7 +104,7 @@ export default function Home() {
         <Numcon />
 
         <Awards />
-        <h1 className={`${neueMon.className} text-[3vw] mx-5 mt-5 uppercase`}>
+        <h1 className={`${neueMon.className} text-[6vw] md:text-[3vw] mx-5 mt-5 uppercase`}>
           work
         </h1>
         <Videos
