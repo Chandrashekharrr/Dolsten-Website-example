@@ -17,7 +17,7 @@ export default function About() {
 
 
       <div className="parentSep w-full md:w-1/4 h-20 md:h-full">
-        <h1 className={`${neueMon.className} uppercase text-[7vw] md:text-[2.5vw] leading-none`}>Dolsten & Co</h1>
+        <h1 className={`${neueMon.className} uppercase text-[7vw] md:text-[2.5vw] leading-none`}>qubit & co.</h1>
       </div>
 
       

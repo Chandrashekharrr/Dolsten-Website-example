@@ -91,7 +91,7 @@ export default function Footer() {
 
 
             <div className="email w-full md:w-[40vw]  px-5">
-              <button className={`flex items-center justify-center w-full h-full  py-5 text-[7vw] md:text-[3.5vw] ${neueMon.className} leading-none backdrop-blur-md bg-white/20 gap-2 `}> <MdSubdirectoryArrowRight className="text-[7vw] md:text-[4vw]" />simon@dolsten.com</button>
+              <button className={`flex items-center justify-center w-full h-full  py-5 text-[7vw] md:text-[3.5vw] ${neueMon.className} leading-none backdrop-blur-md bg-white/20 gap-2 `}> <MdSubdirectoryArrowRight className="text-[7vw] md:text-[4vw]" />qubit@qubit.com</button>
             </div>
 
             <div className="upperplus w-full md:w-[40vw] flex justify-between items-center text-2xl font-extralight">
